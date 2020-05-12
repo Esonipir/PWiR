@@ -11,6 +11,50 @@
           "isDefault": true
         },
         "problemMatcher": []
+      },
+      {
+        "label": "program02a",
+        "type": "shell",
+        "command": "gcc",
+        "args": ["-std=c2x", "-Wall", "-o", "prog", "02/main.c"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "program02b",
+        "type": "shell",
+        "command": "gcc",
+        "args": ["-std=c2x", "-Wall", "-o", "prog", "02/main2.c"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "program02c",
+        "type": "shell",
+        "command": "g++",
+        "args": ["-std=c++20", "-Wall", "-o", "prog", "02/main.cpp"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "program02d",
+        "type": "shell",
+        "command": "g++",
+        "args": ["-std=c++20", "-Wall", "-o", "prog", "02/main2.cpp"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": []
       }
     ]
   }
