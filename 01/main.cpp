@@ -1,5 +1,6 @@
 #include <iostream>
 #include <omp.h>
+#include <unistd.h>
 using namespace std;
 
 int main() {
@@ -12,4 +13,5 @@ int main() {
         int ID = omp_get_thread_num();
         cout << "Hello world! " << ID << endl;
     }
+    usleep(1000000);
 }
