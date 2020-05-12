@@ -1,1 +1,2 @@
 # PWiR
+Instytut Techniczny
