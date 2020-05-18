@@ -66,6 +66,61 @@
           "isDefault": true
         },
         "problemMatcher": []
+      },
+      {
+        "label": "program03a",
+        "type": "shell",
+        "command": "g++",
+        "args": ["-std=c++20", "-Wall", "-fopenmp", "-o", "prog", "03/main1.cpp"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "program03b",
+        "type": "shell",
+        "command": "g++",
+        "args": ["-std=c++20", "-Wall", "-fopenmp", "-o", "prog", "03/main2.cpp"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "program03c",
+        "type": "shell",
+        "command": "g++",
+        "args": ["-std=c++20", "-Wall", "-fopenmp", "-o", "prog", "03/main3.cpp"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "program03d",
+        "type": "shell",
+        "command": "g++",
+        "args": ["-std=c++20", "-Wall", "-fopenmp", "-o", "prog", "03/main4.cpp"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "program03e",
+        "type": "shell",
+        "command": "g++",
+        "args": ["-std=c++20", "-Wall", "-fopenmp", "-o", "prog", "03/main5.cpp"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": []
       }
     ]
   }
